@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Your App Name",
+    title: "Proticos",
     description: "Your app description",
 };
 
