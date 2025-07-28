@@ -1,7 +1,8 @@
-import '../styles/globals.css'; // Adjust if your CSS file path is different
+import { AppProps } from 'next/app';  // Import AppProps from Next.js
+import '../styles/globals.css';       // Your globals.css import
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />;
-}
+};
 
 export default MyApp;
